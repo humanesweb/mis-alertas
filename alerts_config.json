@@ -18,6 +18,13 @@
       "level": 247.0,
       "direction": "below",
       "note": ""
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 64000.0,
+      "direction": "above",
+      "note": ""
     }
   ],
   "rsi_alerts": [
