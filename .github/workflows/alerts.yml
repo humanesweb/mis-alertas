@@ -7,6 +7,9 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
+  # Disparo externo confiable (cron-job.org le pega a este evento cada 5 min).
+  repository_dispatch:
+    types: [run-alerts]
 
 # Permite que el job commitee de vuelta el estado (alerts_state.json).
 permissions:
