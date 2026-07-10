@@ -216,7 +216,10 @@ def apply_custom_strategies(df: pd.DataFrame) -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 # Data source #1: Binance (crypto)
 # ---------------------------------------------------------------------------
-_BINANCE_REST_URL = "https://api.binance.com/api/v3/klines"
+# Public data host (data-api.binance.vision) en vez de api.binance.com: el
+# primero NO tiene bloqueo geográfico, así que funciona desde datacenters / EE.UU.
+# (ej. los runners de GitHub Actions, que Binance bloquea con HTTP 451).
+_BINANCE_REST_URL = "https://data-api.binance.vision/api/v3/klines"
 
 
 def fetch_binance(symbol: str, interval: str, limit: int = 500) -> pd.DataFrame:
@@ -518,7 +521,7 @@ POPULAR_STOCKS: List[str] = [
 
 # In-memory cache for the (large) Binance symbol list.
 _binance_symbols_cache = {"ts": 0.0, "data": []}
-_BINANCE_TICKER_URL = "https://api.binance.com/api/v3/ticker/price"
+_BINANCE_TICKER_URL = "https://data-api.binance.vision/api/v3/ticker/price"
 # Quote assets kept in the crypto search, in priority order (USDT first).
 _QUOTE_PRIORITY = ["USDT", "USDC", "FDUSD", "BTC", "ETH", "BNB"]
 
