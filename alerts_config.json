@@ -6,52 +6,14 @@
   "poll_seconds": 60,
   "price_alerts": [
     {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 64170.0,
-      "direction": "above",
-      "note": "BTC rompe resistencia -> objetivo 66.082"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 63940.0,
-      "direction": "below",
-      "note": "BTC pierde invalidacion -> ojo 61.545"
-    },
-    {
       "symbol": "BCHUSDT",
       "market": "crypto",
-      "level": 248.7,
+      "level": 248.2,
       "direction": "above",
-      "note": "BCH rompe techo (sobrecomprado)"
-    },
-    {
-      "symbol": "BCHUSDT",
-      "market": "crypto",
-      "level": 248.0,
-      "direction": "below",
-      "note": "BCH pierde soporte OB 1H"
+      "note": ""
     }
   ],
-  "rsi_alerts": [
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "interval": "1h",
-      "period": 14,
-      "overbought": 70.0,
-      "oversold": 30.0
-    },
-    {
-      "symbol": "BCHUSDT",
-      "market": "crypto",
-      "interval": "1h",
-      "period": 14,
-      "overbought": 70.0,
-      "oversold": 30.0
-    }
-  ],
+  "rsi_alerts": [],
   "_ayuda": {
     "price_alerts": "direction: 'above' avisa al cruzar hacia arriba, 'below' al cruzar hacia abajo. market: 'crypto' (BTCUSDT) o 'stock' (AAPL, XAUUSD...).",
     "rsi_alerts": "interval: 1m,5m,15m,1h,4h,1d. Avisa una sola vez al ENTRAR en zona; se rearma al salir.",
