@@ -8,33 +8,49 @@
     {
       "symbol": "BCHUSDT",
       "market": "crypto",
-      "level": 245.8,
+      "level": 249.0,
       "direction": "above",
       "note": ""
     },
     {
       "symbol": "BCHUSDT",
       "market": "crypto",
-      "level": 245.6,
+      "level": 243.0,
       "direction": "below",
       "note": ""
     },
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 63890.0,
+      "level": 65000.0,
       "direction": "above",
       "note": ""
     },
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 63000.0,
+      "level": 63200.0,
       "direction": "below",
+      "note": ""
+    },
+    {
+      "symbol": "BCHUSDT",
+      "market": "crypto",
+      "level": 252.0,
+      "direction": "above",
       "note": ""
     }
   ],
-  "rsi_alerts": [],
+  "rsi_alerts": [
+    {
+      "symbol": "BCHUSDT",
+      "market": "crypto",
+      "interval": "1h",
+      "period": 14,
+      "overbought": 32.0,
+      "oversold": 30.0
+    }
+  ],
   "_ayuda": {
     "price_alerts": "direction: 'above' avisa al cruzar hacia arriba, 'below' al cruzar hacia abajo. market: 'crypto' (BTCUSDT) o 'stock' (AAPL, XAUUSD...).",
     "rsi_alerts": "interval: 1m,5m,15m,1h,4h,1d. Avisa una sola vez al ENTRAR en zona; se rearma al salir.",
