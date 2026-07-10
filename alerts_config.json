@@ -8,21 +8,21 @@
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 64000.0,
+      "level": 64170.0,
       "direction": "above",
       "note": "BTC rompe resistencia -> objetivo 66.082"
     },
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 63900.0,
+      "level": 64000.0,
       "direction": "below",
       "note": "BTC pierde invalidacion -> ojo 61.545"
     },
     {
       "symbol": "BCHUSDT",
       "market": "crypto",
-      "level": 249.6,
+      "level": 249.2,
       "direction": "above",
       "note": "BCH rompe techo (sobrecomprado)"
     },
