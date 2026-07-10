@@ -47,8 +47,8 @@
       "market": "crypto",
       "interval": "1h",
       "period": 14,
-      "overbought": 32.0,
-      "oversold": 30.0
+      "overbought": 60.0,
+      "oversold": 40.0
     }
   ],
   "_ayuda": {
