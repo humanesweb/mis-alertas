@@ -1,0 +1,52 @@
+name: SplitCharts Alerts
+
+# Corre cada 5 minutos (mínimo que permite GitHub; puede demorarse un poco más
+# en horarios de mucha carga). También se puede lanzar a mano desde la pestaña
+# Actions -> Run workflow.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+# Permite que el job commitee de vuelta el estado (alerts_state.json).
+permissions:
+  contents: write
+
+# Evita que dos corridas se pisen.
+concurrency:
+  group: splitcharts-alerts
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install requests pandas numpy ta yfinance
+
+      - name: Run alert check
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python telegram_alerts.py --once
+
+      - name: Persist state
+        run: |
+          if [ -n "$(git status --porcelain alerts_state.json)" ]; then
+            git config user.name "splitcharts-alerts-bot"
+            git config user.email "alerts-bot@users.noreply.github.com"
+            git add alerts_state.json
+            git commit -m "update alert state [skip ci]"
+            git push
+          else
+            echo "sin cambios de estado"
+          fi
