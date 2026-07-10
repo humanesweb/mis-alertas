@@ -209,12 +209,9 @@ def check_rsi_alerts(cfg, state, tg):
             rsi = get_rsi(symbol, market, interval, period)
         except Exception as exc:
             print(f"[{_now()}] RSI {symbol} error: {exc}")
-            state["_dbg_rsi_" + symbol] = ("%s: %s" % (type(exc).__name__, exc))[:180]
             continue
         if rsi is None:
-            state["_dbg_rsi_" + symbol] = "rsi None (lista vacia / NaN)"
             continue
-        state.pop("_dbg_rsi_" + symbol, None)
 
         st = state.setdefault(key, {"ob": False, "os": False})
         # Sobrecompra: disparar al ENTRAR, resetear al salir (evita spam).
