@@ -8,14 +8,14 @@
     {
       "symbol": "BCHUSDT",
       "market": "crypto",
-      "level": 248.0,
+      "level": 241.0,
       "direction": "above",
       "note": ""
     },
     {
       "symbol": "BCHUSDT",
       "market": "crypto",
-      "level": 238.0,
+      "level": 240.0,
       "direction": "below",
       "note": ""
     },
@@ -29,7 +29,7 @@
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 63200.0,
+      "level": 63600.0,
       "direction": "below",
       "note": ""
     },
