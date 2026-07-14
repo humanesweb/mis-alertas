@@ -6,25 +6,11 @@
   "poll_seconds": 60,
   "price_alerts": [
     {
-      "symbol": "BCHUSDT",
-      "market": "crypto",
-      "level": 242.0,
+      "symbol": "IBM",
+      "market": "stock",
+      "level": 226.0,
       "direction": "above",
-      "note": "objetivo 250"
-    },
-    {
-      "symbol": "BCHUSDT",
-      "market": "crypto",
-      "level": 236.0,
-      "direction": "below",
-      "note": "objetivo 227"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 64700.0,
-      "direction": "above",
-      "note": "objetivo 68 mil"
+      "note": "cerrar long"
     },
     {
       "symbol": "BTCUSDT",
@@ -34,30 +20,14 @@
       "note": "ver en 60 mil otra parada 56 mil"
     },
     {
-      "symbol": "BCHUSDT",
+      "symbol": "IBM",
       "market": "crypto",
-      "level": 250.0,
-      "direction": "above",
-      "note": ""
-    },
-    {
-      "symbol": "TRXUSDT",
-      "market": "crypto",
-      "level": 0.3269,
-      "direction": "above",
-      "note": "obj 0.3291"
+      "level": 215.0,
+      "direction": "below",
+      "note": "ver stop loss"
     }
   ],
-  "rsi_alerts": [
-    {
-      "symbol": "BCHUSDT",
-      "market": "crypto",
-      "interval": "4h",
-      "period": 14,
-      "overbought": 60.0,
-      "oversold": 30.0
-    }
-  ],
+  "rsi_alerts": [],
   "_ayuda": {
     "price_alerts": "direction: 'above' avisa al cruzar hacia arriba, 'below' al cruzar hacia abajo. market: 'crypto' (BTCUSDT) o 'stock' (AAPL, XAUUSD...).",
     "rsi_alerts": "interval: 1m,5m,15m,1h,4h,1d. Avisa una sola vez al ENTRAR en zona; se rearma al salir.",
