@@ -29,21 +29,21 @@
     {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 1900.0,
-      "direction": "above",
-      "note": ""
+      "level": 1940.0,
+      "direction": "below",
+      "note": "short a 1830"
     },
     {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 1830.0,
-      "direction": "below",
-      "note": ""
+      "level": 1930.0,
+      "direction": "above",
+      "note": "short a 1830"
     },
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 65000.0,
+      "level": 65500.0,
       "direction": "above",
       "note": ""
     }
