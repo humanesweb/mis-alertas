@@ -29,23 +29,37 @@
     {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 1940.0,
+      "level": 1963.0,
       "direction": "below",
-      "note": "short a 1830"
+      "note": "short a 1800"
     },
     {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 1930.0,
+      "level": 1959.0,
       "direction": "above",
-      "note": "short a 1830"
+      "note": "short a 1800"
     },
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 65500.0,
+      "level": 65620.0,
       "direction": "above",
       "note": ""
+    },
+    {
+      "symbol": "IBM",
+      "market": "crypto",
+      "level": 225.0,
+      "direction": "above",
+      "note": "vender"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 65600.0,
+      "direction": "below",
+      "note": "ver short"
     }
   ],
   "rsi_alerts": [],
