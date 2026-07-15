@@ -29,21 +29,21 @@
     {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 1963.0,
+      "level": 1900.0,
       "direction": "below",
-      "note": "short a 1800"
+      "note": "long a 2000"
     },
     {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 1959.0,
+      "level": 1870.0,
       "direction": "above",
-      "note": "short a 1800"
+      "note": "long a 2000"
     },
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 65620.0,
+      "level": 65617.0,
       "direction": "above",
       "note": ""
     },
@@ -57,9 +57,9 @@
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 65600.0,
+      "level": 64400.0,
       "direction": "below",
-      "note": "ver short"
+      "note": "long a 67000"
     },
     {
       "symbol": "KEEL",
