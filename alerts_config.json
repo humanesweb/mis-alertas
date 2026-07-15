@@ -4,64 +4,7 @@
     "chat_id": ""
   },
   "poll_seconds": 60,
-  "price_alerts": [
-    {
-      "symbol": "IBM",
-      "market": "stock",
-      "level": 226.0,
-      "direction": "above",
-      "note": "cerrar long"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 64300.0,
-      "direction": "below",
-      "note": "ver en 60 mil otra parada 56 mil"
-    },
-    {
-      "symbol": "IBM",
-      "market": "stock",
-      "level": 215.0,
-      "direction": "below",
-      "note": "ver stop loss"
-    },
-    {
-      "symbol": "ETHUSDT",
-      "market": "crypto",
-      "level": 1900.0,
-      "direction": "below",
-      "note": "long a 2000"
-    },
-    {
-      "symbol": "ETHUSDT",
-      "market": "crypto",
-      "level": 1870.0,
-      "direction": "above",
-      "note": "long a 2000"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 65617.0,
-      "direction": "above",
-      "note": ""
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 64400.0,
-      "direction": "below",
-      "note": "long a 67000"
-    },
-    {
-      "symbol": "KEEL",
-      "market": "stock",
-      "level": 4.2,
-      "direction": "below",
-      "note": ""
-    }
-  ],
+  "price_alerts": [],
   "rsi_alerts": [],
   "_ayuda": {
     "price_alerts": "direction: 'above' avisa al cruzar hacia arriba, 'below' al cruzar hacia abajo. market: 'crypto' (BTCUSDT) o 'stock' (AAPL, XAUUSD...).",
