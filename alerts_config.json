@@ -48,13 +48,6 @@
       "note": ""
     },
     {
-      "symbol": "IBM",
-      "market": "crypto",
-      "level": 225.0,
-      "direction": "above",
-      "note": "vender"
-    },
-    {
       "symbol": "BTCUSDT",
       "market": "crypto",
       "level": 64400.0,
