@@ -60,6 +60,13 @@
       "level": 65600.0,
       "direction": "below",
       "note": "ver short"
+    },
+    {
+      "symbol": "KEEL",
+      "market": "stock",
+      "level": 4.2,
+      "direction": "below",
+      "note": ""
     }
   ],
   "rsi_alerts": [],
