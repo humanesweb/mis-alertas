@@ -4,8 +4,8 @@ name: SplitCharts Alerts
 # (Se quitó el cron nativo de GitHub: disparaba en paralelo con el pinger y
 #  provocaba choques de push en el guardado de estado.)
 on:
-  repository_dispatch:
-    types: [run-alerts]
+  schedule:
+    - cron: '*/5 * * * *'
   workflow_dispatch: {}
 
 # Permite que el job commitee de vuelta el estado (alerts_state.json).
