@@ -11,6 +11,13 @@
       "level": 362.0,
       "direction": "above",
       "note": "prueba"
+    },
+    {
+      "symbol": "MU",
+      "market": "stock",
+      "level": 800.0,
+      "direction": "below",
+      "note": "Ver"
     }
   ],
   "rsi_alerts": [],
