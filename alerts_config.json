@@ -29,7 +29,7 @@
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 64300.0,
+      "level": 64200.0,
       "direction": "below",
       "note": "dddd"
     },
@@ -43,8 +43,8 @@
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 64400.0,
-      "direction": "above",
+      "level": 64150.0,
+      "direction": "below",
       "note": ""
     },
     {
