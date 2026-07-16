@@ -18,6 +18,13 @@
       "level": 800.0,
       "direction": "below",
       "note": "Ver"
+    },
+    {
+      "symbol": "AMD",
+      "market": "stock",
+      "level": 660.0,
+      "direction": "below",
+      "note": "ver"
     }
   ],
   "rsi_alerts": [],
