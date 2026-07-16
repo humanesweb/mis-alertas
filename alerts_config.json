@@ -53,6 +53,13 @@
       "level": 1836.0,
       "direction": "below",
       "note": ""
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 142.0,
+      "direction": "above",
+      "note": "sma 150"
     }
   ],
   "rsi_alerts": [],
