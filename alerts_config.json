@@ -32,6 +32,13 @@
       "level": 64600.0,
       "direction": "above",
       "note": "dddd"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "market": "crypto",
+      "level": 1900.0,
+      "direction": "above",
+      "note": "cccc"
     }
   ],
   "rsi_alerts": [],
