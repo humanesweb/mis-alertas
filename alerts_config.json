@@ -36,21 +36,14 @@
     {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 18760.0,
-      "direction": "above",
+      "level": 1798.0,
+      "direction": "below",
       "note": "cccc"
     },
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 64150.0,
-      "direction": "below",
-      "note": ""
-    },
-    {
-      "symbol": "MELI",
-      "market": "stock",
-      "level": 1836.0,
+      "level": 62830.0,
       "direction": "below",
       "note": ""
     },
