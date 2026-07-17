@@ -60,6 +60,13 @@
       "level": 142.0,
       "direction": "above",
       "note": "sma 150"
+    },
+    {
+      "symbol": "MELI",
+      "market": "stock",
+      "level": 1792.0,
+      "direction": "below",
+      "note": "SL21"
     }
   ],
   "rsi_alerts": [],
