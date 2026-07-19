@@ -162,7 +162,9 @@ def _fmt(v):
 # Evaluación de reglas
 # ---------------------------------------------------------------------------
 def check_price_alerts(cfg, state, tg, price_cache):
-    for a in cfg.get("price_alerts", []):
+    """Devuelve lista de índices de alertas que se dispararon exitosamente."""
+    fired = []
+    for i, a in enumerate(cfg.get("price_alerts", [])):
         symbol = a["symbol"].upper()
         market = a.get("market", "crypto")
         level = float(a["level"])
@@ -193,11 +195,18 @@ def check_price_alerts(cfg, state, tg, price_cache):
                    f"Precio: <b>{_fmt(px)}</b>")
             if note:
                 msg += f"\n<i>{note}</i>"
-            _fire(tg, msg, key)
+            ok = _fire(tg, msg, key)
+            if ok:
+                fired.append(i)
+                # Limpiar estado para no dejar clave huérfana
+                state.pop(key, None)
+    return fired
 
 
 def check_rsi_alerts(cfg, state, tg):
-    for a in cfg.get("rsi_alerts", []):
+    """Devuelve lista de índices de alertas RSI que se dispararon exitosamente."""
+    fired = []
+    for i, a in enumerate(cfg.get("rsi_alerts", [])):
         symbol = a["symbol"].upper()
         market = a.get("market", "crypto")
         interval = a.get("interval", "1h")
@@ -214,20 +223,29 @@ def check_rsi_alerts(cfg, state, tg):
             continue
 
         st = state.setdefault(key, {"ob": False, "os": False})
+        alert_fired = False
         # Sobrecompra: disparar al ENTRAR, resetear al salir (evita spam).
         if rsi >= overbought and not st["ob"]:
-            _fire(tg, f"📈 <b>{symbol}</b> ({interval}) RSI en <b>sobrecompra</b>: "
-                      f"{rsi:.1f} (≥ {overbought:.0f})", key + "|ob")
+            ok = _fire(tg, f"📈 <b>{symbol}</b> ({interval}) RSI en <b>sobrecompra</b>: "
+                          f"{rsi:.1f} (≥ {overbought:.0f})", key + "|ob")
+            if ok:
+                alert_fired = True
             st["ob"] = True
         elif rsi < overbought:
             st["ob"] = False
         # Sobreventa
         if rsi <= oversold and not st["os"]:
-            _fire(tg, f"📉 <b>{symbol}</b> ({interval}) RSI en <b>sobreventa</b>: "
-                      f"{rsi:.1f} (≤ {oversold:.0f})", key + "|os")
+            ok = _fire(tg, f"📉 <b>{symbol}</b> ({interval}) RSI en <b>sobreventa</b>: "
+                          f"{rsi:.1f} (≤ {oversold:.0f})", key + "|os")
+            if ok:
+                alert_fired = True
             st["os"] = True
         elif rsi > oversold:
             st["os"] = False
+        if alert_fired:
+            fired.append(i)
+            state.pop(key, None)
+    return fired
 
 
 def _now():
@@ -235,12 +253,37 @@ def _now():
 
 
 def _fire(tg, msg, key):
+    """Envía alerta por Telegram. Devuelve True si fue exitoso."""
     ok, detail = send_telegram(tg["bot_token"], tg["chat_id"], msg)
     plain = msg.replace("<b>", "").replace("</b>", "").replace("<i>", "").replace("</i>", "").replace("\n", " | ")
     if ok:
         print(f"[{_now()}] ✅ ALERTA enviada: {plain}")
     else:
         print(f"[{_now()}] ❌ fallo Telegram ({detail}) para: {plain}")
+    return ok
+
+
+def _delete_fired_alerts(cfg, fired_px, fired_rsi):
+    """Elimina del config las alertas que ya se dispararon y guarda el archivo."""
+    if not fired_px and not fired_rsi:
+        return
+    # Eliminar en orden inverso para no desplazar índices
+    for i in sorted(fired_px, reverse=True):
+        removed = cfg["price_alerts"].pop(i)
+        print(f"[{_now()}] 🗑  Alerta eliminada: {removed.get('symbol')} "
+              f"{removed.get('direction')} {removed.get('level')}")
+    for i in sorted(fired_rsi, reverse=True):
+        removed = cfg["rsi_alerts"].pop(i)
+        print(f"[{_now()}] 🗑  Alerta RSI eliminada: {removed.get('symbol')} "
+              f"{removed.get('interval')}")
+    # Guardar config actualizada
+    try:
+        with open(CONFIG_PATH, "w", encoding="utf-8") as fh:
+            json.dump(cfg, fh, indent=2, ensure_ascii=False)
+        print(f"[{_now()}] 💾 Config actualizada ({len(cfg.get('price_alerts',[]))} precio · "
+              f"{len(cfg.get('rsi_alerts',[]))} RSI restantes).")
+    except Exception as exc:
+        print(f"[{_now()}] ⚠️  No se pudo guardar config: {exc}")
 
 
 # ---------------------------------------------------------------------------
@@ -295,11 +338,12 @@ def main():
     # --once: un solo ciclo, con estado persistido en disco. Para cron/GitHub Actions.
     if args.once:
         state = _load_state()
-        check_price_alerts(cfg, state, tg, {})
-        check_rsi_alerts(cfg, state, tg)
+        fired_px = check_price_alerts(cfg, state, tg, {})
+        fired_rsi = check_rsi_alerts(cfg, state, tg)
         _save_state(state)
+        _delete_fired_alerts(cfg, fired_px, fired_rsi)
         print(f"[{_now()}] chequeo único completado "
-              f"({len(cfg.get('price_alerts', []))} precio · {len(cfg.get('rsi_alerts', []))} RSI).")
+              f"({len(cfg.get('price_alerts', []))} precio · {len(cfg.get('rsi_alerts', []))} RSI restantes).")
         sys.exit(0)
 
     poll = int(cfg.get("poll_seconds", 60))
@@ -317,8 +361,9 @@ def main():
             cfg = load_config()          # recargar en caliente: editás reglas sin reiniciar
             tg = resolve_creds(cfg)
             price_cache = {}
-            check_price_alerts(cfg, state, tg, price_cache)
-            check_rsi_alerts(cfg, state, tg)
+            fired_px = check_price_alerts(cfg, state, tg, price_cache)
+            fired_rsi = check_rsi_alerts(cfg, state, tg)
+            _delete_fired_alerts(cfg, fired_px, fired_rsi)
         except KeyboardInterrupt:
             raise
         except Exception as exc:
