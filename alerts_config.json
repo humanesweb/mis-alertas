@@ -6,60 +6,11 @@
   "poll_seconds": 60,
   "price_alerts": [
     {
-      "symbol": "GLD",
-      "market": "stock",
-      "level": 369.0,
-      "direction": "above",
-      "note": "prueba"
-    },
-    {
-      "symbol": "MU",
-      "market": "stock",
-      "level": 800.0,
-      "direction": "below",
-      "note": "Ver"
-    },
-    {
       "symbol": "AMD",
       "market": "stock",
       "level": 660.0,
       "direction": "below",
       "note": "ver"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 64200.0,
-      "direction": "below",
-      "note": "Ojo si sigue"
-    },
-    {
-      "symbol": "ETHUSDT",
-      "market": "crypto",
-      "level": 1600.0,
-      "direction": "below",
-      "note": "Analizar Compras"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 67000.0,
-      "direction": "above",
-      "note": "Vta 8"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 142.0,
-      "direction": "above",
-      "note": "sma 150"
-    },
-    {
-      "symbol": "MELI",
-      "market": "stock",
-      "level": 1792.0,
-      "direction": "below",
-      "note": "SL21"
     },
     {
       "symbol": "AVGO",
@@ -71,9 +22,51 @@
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
+      "level": 62.852,
+      "direction": "below",
+      "note": "Ojo si sigue"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
       "level": 67000.0,
       "direction": "above",
-      "note": ""
+      "note": "Vta 8"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "market": "crypto",
+      "level": 1600.0,
+      "direction": "below",
+      "note": "Analizar Compras"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 369.0,
+      "direction": "above",
+      "note": "prueba"
+    },
+    {
+      "symbol": "MELI",
+      "market": "stock",
+      "level": 1792.0,
+      "direction": "below",
+      "note": "SL21"
+    },
+    {
+      "symbol": "MU",
+      "market": "stock",
+      "level": 800.0,
+      "direction": "below",
+      "note": "Ver"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 142.0,
+      "direction": "above",
+      "note": "sma 150"
     }
   ],
   "rsi_alerts": [],
