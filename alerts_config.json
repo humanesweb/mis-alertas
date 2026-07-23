@@ -67,6 +67,13 @@
       "level": 142.0,
       "direction": "above",
       "note": "sma 150"
+    },
+    {
+      "symbol": "SPY",
+      "market": "stock",
+      "level": 760.0,
+      "direction": "above",
+      "note": "Comorar SH"
     }
   ],
   "rsi_alerts": [],
