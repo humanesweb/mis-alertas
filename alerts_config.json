@@ -43,8 +43,8 @@
     {
       "symbol": "GLD",
       "market": "stock",
-      "level": 369.0,
-      "direction": "above",
+      "level": 360.0,
+      "direction": "below",
       "note": "prueba"
     },
     {
