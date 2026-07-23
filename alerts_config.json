@@ -81,6 +81,13 @@
       "level": 736.0,
       "direction": "below",
       "note": ""
+    },
+    {
+      "symbol": "TSLA",
+      "market": "stock",
+      "level": 307.0,
+      "direction": "below",
+      "note": "Ver suelo"
     }
   ],
   "rsi_alerts": [],
