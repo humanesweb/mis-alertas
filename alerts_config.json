@@ -74,6 +74,13 @@
       "level": 760.0,
       "direction": "above",
       "note": "Comorar SH"
+    },
+    {
+      "symbol": "SPY",
+      "market": "crypto",
+      "level": 736.0,
+      "direction": "below",
+      "note": ""
     }
   ],
   "rsi_alerts": [],
