@@ -88,6 +88,13 @@
       "level": 307.0,
       "direction": "below",
       "note": "Ver suelo"
+    },
+    {
+      "symbol": "GOOGL",
+      "market": "stock",
+      "level": 306.0,
+      "direction": "below",
+      "note": "Cierrra gap entrada"
     }
   ],
   "rsi_alerts": [],
