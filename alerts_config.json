@@ -62,6 +62,13 @@
       "note": "Cierrra gap entrada"
     },
     {
+      "symbol": "GOOGL",
+      "market": "stock",
+      "level": 307.0,
+      "direction": "below",
+      "note": ""
+    },
+    {
       "symbol": "MELI",
       "market": "stock",
       "level": 1792.0,
@@ -104,9 +111,9 @@
       "note": "Ver suelo"
     },
     {
-      "symbol": "GOOGL",
+      "symbol": "NVDA",
       "market": "stock",
-      "level": 307.0,
+      "level": 192.0,
       "direction": "below",
       "note": ""
     }
