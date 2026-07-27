@@ -48,6 +48,13 @@
       "note": "prueba"
     },
     {
+      "symbol": "GOOGL",
+      "market": "stock",
+      "level": 306.0,
+      "direction": "below",
+      "note": "Cierrra gap entrada"
+    },
+    {
       "symbol": "MELI",
       "market": "stock",
       "level": 1792.0,
@@ -90,11 +97,11 @@
       "note": "Ver suelo"
     },
     {
-      "symbol": "GOOGL",
-      "market": "stock",
-      "level": 306.0,
+      "symbol": "BTCUSDC",
+      "market": "crypto",
+      "level": 64900.0,
       "direction": "below",
-      "note": "Cierrra gap entrada"
+      "note": "perp"
     }
   ],
   "rsi_alerts": [],
