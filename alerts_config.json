@@ -20,6 +20,13 @@
       "note": ""
     },
     {
+      "symbol": "BTCUSDC",
+      "market": "crypto",
+      "level": 64900.0,
+      "direction": "below",
+      "note": "perp"
+    },
+    {
       "symbol": "BTCUSDT",
       "market": "crypto",
       "level": 62.852,
@@ -97,11 +104,11 @@
       "note": "Ver suelo"
     },
     {
-      "symbol": "BTCUSDC",
-      "market": "crypto",
-      "level": 64900.0,
+      "symbol": "GOOGL",
+      "market": "stock",
+      "level": 307.0,
       "direction": "below",
-      "note": "perp"
+      "note": ""
     }
   ],
   "rsi_alerts": [],
