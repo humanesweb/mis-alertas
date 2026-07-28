@@ -116,6 +116,13 @@
       "level": 307.0,
       "direction": "below",
       "note": "Ver suelo"
+    },
+    {
+      "symbol": "QQQ",
+      "market": "stock",
+      "level": 664.0,
+      "direction": "below",
+      "note": "ema 200"
     }
   ],
   "rsi_alerts": [],
