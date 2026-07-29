@@ -64,9 +64,16 @@
     {
       "symbol": "MELI",
       "market": "stock",
-      "level": 1792.0,
+      "level": 1795.0,
       "direction": "below",
       "note": "SL21"
+    },
+    {
+      "symbol": "MELI",
+      "market": "stock",
+      "level": 1900.0,
+      "direction": "above",
+      "note": ""
     },
     {
       "symbol": "MU",
@@ -116,13 +123,6 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
-    },
-    {
-      "symbol": "MELI",
-      "market": "stock",
-      "level": 1900.0,
-      "direction": "above",
-      "note": ""
     }
   ],
   "rsi_alerts": [],
