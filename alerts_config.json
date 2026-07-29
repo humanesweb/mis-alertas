@@ -123,6 +123,13 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
+    },
+    {
+      "symbol": "RGTI",
+      "market": "stock",
+      "level": 14.0,
+      "direction": "below",
+      "note": ""
     }
   ],
   "rsi_alerts": [],
