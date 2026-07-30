@@ -57,8 +57,8 @@
     {
       "symbol": "GOOGL",
       "market": "stock",
-      "level": 280.0,
-      "direction": "below",
+      "level": 340.0,
+      "direction": "above",
       "note": ""
     },
     {
@@ -85,8 +85,8 @@
     {
       "symbol": "NVDA",
       "market": "stock",
-      "level": 192.0,
-      "direction": "below",
+      "level": 205.0,
+      "direction": "above",
       "note": ""
     },
     {
@@ -102,6 +102,13 @@
       "level": 664.0,
       "direction": "below",
       "note": "ema 200"
+    },
+    {
+      "symbol": "RGTI",
+      "market": "stock",
+      "level": 14.0,
+      "direction": "below",
+      "note": ""
     },
     {
       "symbol": "SPY",
@@ -123,13 +130,6 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
-    },
-    {
-      "symbol": "RGTI",
-      "market": "stock",
-      "level": 14.0,
-      "direction": "below",
-      "note": ""
     }
   ],
   "rsi_alerts": [],
