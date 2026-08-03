@@ -130,6 +130,13 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
+    },
+    {
+      "symbol": "HYPERLUSD",
+      "market": "crypto",
+      "level": 52.24,
+      "direction": "below",
+      "note": ""
     }
   ],
   "rsi_alerts": [],
