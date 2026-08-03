@@ -15,14 +15,14 @@
     {
       "symbol": "AVGO",
       "market": "stock",
-      "level": 370.0,
+      "level": 360.0,
       "direction": "below",
       "note": ""
     },
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 62.852,
+      "level": 61490.0,
       "direction": "below",
       "note": "Ojo si sigue"
     },
@@ -64,21 +64,21 @@
     {
       "symbol": "MELI",
       "market": "stock",
-      "level": 1795.0,
+      "level": 1870.0,
       "direction": "below",
-      "note": "SL21"
+      "note": "EMA 200"
     },
     {
       "symbol": "MELI",
       "market": "stock",
-      "level": 1900.0,
+      "level": 2000.0,
       "direction": "above",
       "note": ""
     },
     {
       "symbol": "MU",
       "market": "stock",
-      "level": 800.0,
+      "level": 745.0,
       "direction": "below",
       "note": "Ver"
     },
@@ -92,9 +92,9 @@
     {
       "symbol": "PLTR",
       "market": "stock",
-      "level": 142.0,
-      "direction": "above",
-      "note": "sma 150"
+      "level": 120.0,
+      "direction": "below",
+      "note": ""
     },
     {
       "symbol": "QQQ",
