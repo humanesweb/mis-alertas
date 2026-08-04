@@ -62,6 +62,13 @@
       "note": ""
     },
     {
+      "symbol": "HYPERLUSD",
+      "market": "crypto",
+      "level": 52.24,
+      "direction": "below",
+      "note": ""
+    },
+    {
       "symbol": "MELI",
       "market": "stock",
       "level": 1870.0,
@@ -78,9 +85,9 @@
     {
       "symbol": "MU",
       "market": "stock",
-      "level": 745.0,
-      "direction": "below",
-      "note": "Ver"
+      "level": 901.0,
+      "direction": "above",
+      "note": "Long Chequear"
     },
     {
       "symbol": "NVDA",
@@ -92,9 +99,9 @@
     {
       "symbol": "PLTR",
       "market": "stock",
-      "level": 120.0,
-      "direction": "below",
-      "note": ""
+      "level": 163.0,
+      "direction": "above",
+      "note": "Equilibrio vamoslpqlo"
     },
     {
       "symbol": "QQQ",
@@ -130,13 +137,6 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
-    },
-    {
-      "symbol": "HYPERLUSD",
-      "market": "crypto",
-      "level": 52.24,
-      "direction": "below",
-      "note": ""
     }
   ],
   "rsi_alerts": [],
