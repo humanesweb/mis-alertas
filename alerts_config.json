@@ -3,6 +3,7 @@
     "bot_token": "",
     "chat_id": ""
   },
+  "disable_notification": true,
   "poll_seconds": 60,
   "price_alerts": [
     {
@@ -144,6 +145,13 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 390.0,
+      "direction": "above",
+      "note": "Ojo cambia tendencia"
     }
   ],
   "rsi_alerts": [
@@ -154,6 +162,14 @@
       "period": 14,
       "overbought": 50.0,
       "oversold": 40.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "interval": "1h",
+      "period": 14,
+      "overbought": 70.0,
+      "oversold": 30.0
     }
   ],
   "_ayuda": {
