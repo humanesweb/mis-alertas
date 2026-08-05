@@ -137,6 +137,13 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 180.0,
+      "direction": "above",
+      "note": "ver beneficios 50%"
     }
   ],
   "rsi_alerts": [],
