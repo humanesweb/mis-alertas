@@ -104,6 +104,13 @@
       "note": "Equilibrio vamoslpqlo"
     },
     {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 180.0,
+      "direction": "above",
+      "note": "ver beneficios 50%"
+    },
+    {
       "symbol": "QQQ",
       "market": "stock",
       "level": 664.0,
@@ -137,16 +144,18 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 180.0,
-      "direction": "above",
-      "note": "ver beneficios 50%"
     }
   ],
-  "rsi_alerts": [],
+  "rsi_alerts": [
+    {
+      "symbol": "NFTX",
+      "market": "stock",
+      "interval": "1d",
+      "period": 14,
+      "overbought": 50.0,
+      "oversold": 40.0
+    }
+  ],
   "_ayuda": {
     "price_alerts": "direction: 'above' avisa al cruzar hacia arriba, 'below' al cruzar hacia abajo. market: 'crypto' (BTCUSDT) o 'stock' (AAPL, XAUUSD...).",
     "rsi_alerts": "interval: 1m,5m,15m,1h,4h,1d. Avisa una sola vez al ENTRAR en zona; se rearma al salir.",
