@@ -15,7 +15,7 @@ permissions:
 # Evita que dos corridas se pisen.
 concurrency:
   group: splitcharts-alerts
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   check:
