@@ -49,6 +49,13 @@
       "note": "prueba"
     },
     {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 390.0,
+      "direction": "above",
+      "note": "Ojo cambia tendencia"
+    },
+    {
       "symbol": "GOOGL",
       "market": "stock",
       "level": 378.5,
@@ -100,9 +107,9 @@
     {
       "symbol": "PLTR",
       "market": "stock",
-      "level": 163.0,
-      "direction": "above",
-      "note": "Equilibrio vamoslpqlo"
+      "level": 150.0,
+      "direction": "below",
+      "note": "abrir long"
     },
     {
       "symbol": "PLTR",
@@ -145,13 +152,6 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
-    },
-    {
-      "symbol": "GLD",
-      "market": "stock",
-      "level": 390.0,
-      "direction": "above",
-      "note": "Ojo cambia tendencia"
     }
   ],
   "rsi_alerts": [
