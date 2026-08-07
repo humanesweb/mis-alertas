@@ -152,6 +152,13 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
+    },
+    {
+      "symbol": "GOOGL",
+      "market": "stock",
+      "level": 360.0,
+      "direction": "above",
+      "note": "informe long"
     }
   ],
   "rsi_alerts": [
