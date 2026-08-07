@@ -107,9 +107,9 @@
     {
       "symbol": "PLTR",
       "market": "stock",
-      "level": 150.0,
+      "level": 153.0,
       "direction": "below",
-      "note": "abrir long"
+      "note": "analizar salir sopt"
     },
     {
       "symbol": "PLTR",
