@@ -70,6 +70,13 @@
       "note": ""
     },
     {
+      "symbol": "GOOGL",
+      "market": "stock",
+      "level": 360.0,
+      "direction": "above",
+      "note": "informe long"
+    },
+    {
       "symbol": "HYPERLUSD",
       "market": "crypto",
       "level": 52.24,
@@ -154,11 +161,11 @@
       "note": "Ver suelo"
     },
     {
-      "symbol": "GOOGL",
+      "symbol": "MSTF",
       "market": "stock",
-      "level": 360.0,
+      "level": 950.8,
       "direction": "above",
-      "note": "informe long"
+      "note": "Short ver"
     }
   ],
   "rsi_alerts": [
