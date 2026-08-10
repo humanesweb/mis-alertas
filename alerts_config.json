@@ -14,6 +14,13 @@
       "note": "ver"
     },
     {
+      "symbol": "AMZN",
+      "market": "stock",
+      "level": 249.2,
+      "direction": "below",
+      "note": "Ver long despues del puulback"
+    },
+    {
       "symbol": "AVGO",
       "market": "stock",
       "level": 360.0,
@@ -58,9 +65,9 @@
     {
       "symbol": "GOOGL",
       "market": "stock",
-      "level": 378.5,
+      "level": 349.0,
       "direction": "below",
-      "note": "Cierrra gap entrada"
+      "note": "Ver Rango 345 - 349 para long"
     },
     {
       "symbol": "GOOGL",
@@ -166,13 +173,6 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
-    },
-    {
-      "symbol": "AMZN",
-      "market": "stock",
-      "level": 249.2,
-      "direction": "below",
-      "note": "Ver long despues del puulback"
     }
   ],
   "rsi_alerts": [
