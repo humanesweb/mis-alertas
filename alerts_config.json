@@ -65,7 +65,7 @@
     {
       "symbol": "GOOGL",
       "market": "stock",
-      "level": 457.0,
+      "level": 356.0,
       "direction": "above",
       "note": "Long confirma informne 10/08"
     },
@@ -126,6 +126,20 @@
       "note": "ver beneficios 25%  -"
     },
     {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 193.0,
+      "direction": "above",
+      "note": "Toma 25% gcia"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 207.0,
+      "direction": "above",
+      "note": "25% Gcia"
+    },
+    {
       "symbol": "QQQ",
       "market": "stock",
       "level": 664.0,
@@ -159,20 +173,6 @@
       "level": 290.0,
       "direction": "below",
       "note": "Ver suelo"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 193.0,
-      "direction": "above",
-      "note": "Toma 25% gcia"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 207.0,
-      "direction": "above",
-      "note": "25% Gcia"
     }
   ],
   "rsi_alerts": [
