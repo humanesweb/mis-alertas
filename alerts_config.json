@@ -65,23 +65,9 @@
     {
       "symbol": "GOOGL",
       "market": "stock",
-      "level": 349.0,
-      "direction": "below",
-      "note": "Ver Rango 345 - 349 para long"
-    },
-    {
-      "symbol": "GOOGL",
-      "market": "stock",
-      "level": 340.0,
+      "level": 457.0,
       "direction": "above",
-      "note": ""
-    },
-    {
-      "symbol": "GOOGL",
-      "market": "stock",
-      "level": 360.0,
-      "direction": "above",
-      "note": "informe long"
+      "note": "Long confirma informne 10/08"
     },
     {
       "symbol": "HYPERLUSD",
