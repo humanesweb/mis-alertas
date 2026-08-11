@@ -8,7 +8,7 @@
   "price_alerts": [
     {
       "symbol": "AAPL",
-      "market": "crypto",
+      "market": "stock",
       "level": 298.27,
       "direction": "below",
       "note": "Long"
@@ -84,7 +84,7 @@
       "note": "prueba"
     },
     {
-      "symbol": "HYPERLUSD",
+      "symbol": "HYPERUSDT",
       "market": "crypto",
       "level": 52.24,
       "direction": "below",
@@ -105,7 +105,7 @@
       "note": ""
     },
     {
-      "symbol": "MSTF",
+      "symbol": "MSFT",
       "market": "stock",
       "level": 950.8,
       "direction": "above",
@@ -176,7 +176,7 @@
     },
     {
       "symbol": "SPY",
-      "market": "crypto",
+      "market": "stock",
       "level": 736.0,
       "direction": "below",
       "note": ""
@@ -194,18 +194,16 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    }
-  ],
-  "rsi_alerts": [
+    },
     {
-      "symbol": "NFTX",
+      "symbol": "NVDA",
       "market": "stock",
-      "interval": "1d",
-      "period": 14,
-      "overbought": 50.0,
-      "oversold": 40.0
+      "level": 207.19,
+      "direction": "above",
+      "note": "ENtrada Long"
     }
   ],
+  "rsi_alerts": [],
   "_ayuda": {
     "price_alerts": "direction: 'above' avisa al cruzar hacia arriba, 'below' al cruzar hacia abajo. market: 'crypto' (BTCUSDT) o 'stock' (AAPL, XAUUSD...).",
     "rsi_alerts": "interval: 1m,5m,15m,1h,4h,1d. Avisa una sola vez al ENTRAR en zona; se rearma al salir.",
