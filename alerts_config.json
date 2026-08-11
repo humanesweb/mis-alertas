@@ -122,8 +122,15 @@
       "symbol": "NVDA",
       "market": "stock",
       "level": 197.0,
-      "direction": "above",
+      "direction": "below",
       "note": ""
+    },
+    {
+      "symbol": "NVDA",
+      "market": "stock",
+      "level": 207.19,
+      "direction": "below",
+      "note": "ENtrada Long"
     },
     {
       "symbol": "PLTR",
@@ -194,13 +201,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "NVDA",
-      "market": "stock",
-      "level": 207.19,
-      "direction": "above",
-      "note": "ENtrada Long"
     }
   ],
   "rsi_alerts": [],
