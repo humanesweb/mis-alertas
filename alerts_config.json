@@ -7,6 +7,13 @@
   "poll_seconds": 60,
   "price_alerts": [
     {
+      "symbol": "AAPL",
+      "market": "crypto",
+      "level": 298.27,
+      "direction": "below",
+      "note": "Long"
+    },
+    {
       "symbol": "AMD",
       "market": "stock",
       "level": 660.0,
@@ -182,11 +189,11 @@
       "note": "Ver suelo"
     },
     {
-      "symbol": "AAPL",
-      "market": "crypto",
-      "level": 298.27,
+      "symbol": "XAUUSD",
+      "market": "stock",
+      "level": 4295.0,
       "direction": "below",
-      "note": "Long"
+      "note": "entrada Gold Largo"
     }
   ],
   "rsi_alerts": [
