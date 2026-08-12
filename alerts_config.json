@@ -182,6 +182,13 @@
       "note": ""
     },
     {
+      "symbol": "TSLA",
+      "market": "stock",
+      "level": 323.0,
+      "direction": "below",
+      "note": ""
+    },
+    {
       "symbol": "XAUUSD",
       "market": "stock",
       "level": 4295.0,
@@ -189,11 +196,11 @@
       "note": "entrada Gold Largo"
     },
     {
-      "symbol": "TSLA",
+      "symbol": "ORCL",
       "market": "stock",
-      "level": 323.0,
+      "level": 149.1,
       "direction": "below",
-      "note": ""
+      "note": "entrada long"
     }
   ],
   "rsi_alerts": [],
