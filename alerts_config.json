@@ -112,6 +112,13 @@
       "note": "Short ver"
     },
     {
+      "symbol": "MU",
+      "market": "stock",
+      "level": 904.0,
+      "direction": "below",
+      "note": "Rebote para long"
+    },
+    {
       "symbol": "NVDA",
       "market": "stock",
       "level": 197.0,
@@ -182,13 +189,6 @@
       "note": ""
     },
     {
-      "symbol": "TSLA",
-      "market": "stock",
-      "level": 290.0,
-      "direction": "below",
-      "note": "Ver suelo"
-    },
-    {
       "symbol": "XAUUSD",
       "market": "stock",
       "level": 4295.0,
@@ -196,11 +196,11 @@
       "note": "entrada Gold Largo"
     },
     {
-      "symbol": "MU",
+      "symbol": "TSLA",
       "market": "stock",
-      "level": 904.0,
+      "level": 323.0,
       "direction": "below",
-      "note": "Rebote para long"
+      "note": ""
     }
   ],
   "rsi_alerts": [],
