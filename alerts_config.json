@@ -70,13 +70,6 @@
       "note": "Ojo cambia tendencia"
     },
     {
-      "symbol": "GOOGL",
-      "market": "stock",
-      "level": 342.0,
-      "direction": "below",
-      "note": ""
-    },
-    {
       "symbol": "HYPERUSDT",
       "market": "crypto",
       "level": 52.24,
@@ -86,15 +79,8 @@
     {
       "symbol": "MELI",
       "market": "stock",
-      "level": 1870.0,
-      "direction": "below",
-      "note": "EMA 200"
-    },
-    {
-      "symbol": "MELI",
-      "market": "stock",
       "level": 1750.0,
-      "direction": "above",
+      "direction": "below",
       "note": ""
     },
     {
@@ -107,7 +93,7 @@
     {
       "symbol": "MU",
       "market": "stock",
-      "level": 904.0,
+      "level": 905.0,
       "direction": "below",
       "note": "Rebote para long"
     },
@@ -124,6 +110,13 @@
       "level": 207.19,
       "direction": "below",
       "note": "ENtrada Long"
+    },
+    {
+      "symbol": "ORCL",
+      "market": "stock",
+      "level": 149.1,
+      "direction": "below",
+      "note": "entrada long"
     },
     {
       "symbol": "PLTR",
@@ -194,13 +187,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "ORCL",
-      "market": "stock",
-      "level": 149.1,
-      "direction": "below",
-      "note": "entrada long"
     }
   ],
   "rsi_alerts": [],
