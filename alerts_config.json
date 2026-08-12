@@ -112,13 +112,6 @@
       "note": "Short ver"
     },
     {
-      "symbol": "MU",
-      "market": "stock",
-      "level": 901.0,
-      "direction": "above",
-      "note": "Long Chequear"
-    },
-    {
       "symbol": "NVDA",
       "market": "stock",
       "level": 197.0,
@@ -201,6 +194,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "MU",
+      "market": "stock",
+      "level": 904.0,
+      "direction": "above",
+      "note": "Rebote para long"
     }
   ],
   "rsi_alerts": [],
