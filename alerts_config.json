@@ -65,9 +65,9 @@
     {
       "symbol": "GLD",
       "market": "stock",
-      "level": 390.0,
+      "level": 420.0,
       "direction": "above",
-      "note": "Ojo cambia tendencia"
+      "note": "Toma Gcias"
     },
     {
       "symbol": "HYPERUSDT",
@@ -96,6 +96,13 @@
       "level": 905.0,
       "direction": "below",
       "note": "Rebote para long"
+    },
+    {
+      "symbol": "NBIS",
+      "market": "stock",
+      "level": 204.0,
+      "direction": "below",
+      "note": "Ver long"
     },
     {
       "symbol": "NVDA",
@@ -187,13 +194,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "NBIS",
-      "market": "stock",
-      "level": 204.0,
-      "direction": "below",
-      "note": "Ver long"
     }
   ],
   "rsi_alerts": [],
