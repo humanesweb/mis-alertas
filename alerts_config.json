@@ -49,6 +49,13 @@
       "note": "Vta 8"
     },
     {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 63421.0,
+      "direction": "above",
+      "note": "prueba"
+    },
+    {
       "symbol": "ETHUSDT",
       "market": "crypto",
       "level": 1600.0,
@@ -189,6 +196,13 @@
       "note": ""
     },
     {
+      "symbol": "SNKD",
+      "market": "stock",
+      "level": 1514.0,
+      "direction": "above",
+      "note": "Entrada long"
+    },
+    {
       "symbol": "SPY",
       "market": "stock",
       "level": 760.0,
@@ -215,20 +229,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "SNKD",
-      "market": "stock",
-      "level": 1514.0,
-      "direction": "above",
-      "note": "Entrada long"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 63421.0,
-      "direction": "above",
-      "note": "prueba"
     }
   ],
   "rsi_alerts": [],
