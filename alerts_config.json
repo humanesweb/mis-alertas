@@ -187,6 +187,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "NBIS",
+      "market": "stock",
+      "level": 204.0,
+      "direction": "below",
+      "note": "Ver long"
     }
   ],
   "rsi_alerts": [],
