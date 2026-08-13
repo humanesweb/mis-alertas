@@ -77,6 +77,13 @@
       "note": ""
     },
     {
+      "symbol": "IREN",
+      "market": "stock",
+      "level": 40.0,
+      "direction": "below",
+      "note": ""
+    },
+    {
       "symbol": "MELI",
       "market": "stock",
       "level": 1750.0,
@@ -203,9 +210,9 @@
       "note": "entrada Gold Largo"
     },
     {
-      "symbol": "IREN",
+      "symbol": "GOOGL",
       "market": "stock",
-      "level": 40.0,
+      "level": 320.0,
       "direction": "below",
       "note": ""
     }
