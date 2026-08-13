@@ -35,20 +35,6 @@
       "note": ""
     },
     {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 64467.01545188652,
-      "direction": "below",
-      "note": "Ojo si sigue"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 66079.30240128693,
-      "direction": "above",
-      "note": "Vta 8"
-    },
-    {
       "symbol": "ETHUSDT",
       "market": "crypto",
       "level": 1556.1805557180462,
@@ -147,34 +133,6 @@
       "note": "entrada long"
     },
     {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 153.0,
-      "direction": "below",
-      "note": "analizar salir sopt"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 180.0,
-      "direction": "above",
-      "note": "ver beneficios 25%  -"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 193.0,
-      "direction": "above",
-      "note": "Toma 25% gcia"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 207.0,
-      "direction": "above",
-      "note": "25% Gcia"
-    },
-    {
       "symbol": "QQQ",
       "market": "stock",
       "level": 664.0,
@@ -210,32 +168,11 @@
       "note": ""
     },
     {
-      "symbol": "TSLA",
-      "market": "stock",
-      "level": 331.7827491191229,
-      "direction": "below",
-      "note": ""
-    },
-    {
       "symbol": "XAUUSD",
       "market": "stock",
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 62749.26593448377,
-      "direction": "above",
-      "note": ""
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 63417.95,
-      "direction": "above",
-      "note": "VERIFICACION-EDIT-BORRAR"
     }
   ],
   "rsi_alerts": [],
