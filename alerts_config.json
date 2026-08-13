@@ -222,6 +222,13 @@
       "level": 1514.0,
       "direction": "above",
       "note": "Entrada long"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 63421.0,
+      "direction": "above",
+      "note": "prueba"
     }
   ],
   "rsi_alerts": [],
