@@ -44,7 +44,7 @@
     {
       "symbol": "BTCUSDT",
       "market": "crypto",
-      "level": 67000.0,
+      "level": 66079.30240128693,
       "direction": "above",
       "note": "Vta 8"
     },
@@ -229,6 +229,13 @@
       "level": 62749.26593448377,
       "direction": "above",
       "note": ""
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 63417.95,
+      "direction": "above",
+      "note": "VERIFICACION-EDIT-BORRAR"
     }
   ],
   "rsi_alerts": [],
