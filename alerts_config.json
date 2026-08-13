@@ -105,6 +105,13 @@
       "note": "Ver long"
     },
     {
+      "symbol": "NTFX",
+      "market": "stock",
+      "level": 74.0,
+      "direction": "below",
+      "note": "Entrar long"
+    },
+    {
       "symbol": "NVDA",
       "market": "stock",
       "level": 197.0,
@@ -194,6 +201,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "IREN",
+      "market": "stock",
+      "level": 40.0,
+      "direction": "below",
+      "note": ""
     }
   ],
   "rsi_alerts": [],
