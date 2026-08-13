@@ -35,9 +35,30 @@
       "note": ""
     },
     {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 57384.98476455104,
+      "direction": "below",
+      "note": "Ojo si sigue"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 67000.0,
+      "direction": "above",
+      "note": "Vta 8"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 63421.0,
+      "direction": "above",
+      "note": "prueba"
+    },
+    {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 1556.1805557180462,
+      "level": 1600.0,
       "direction": "below",
       "note": "Analizar Compras"
     },
@@ -58,7 +79,7 @@
     {
       "symbol": "GOOGL",
       "market": "stock",
-      "level": 325.25459638106224,
+      "level": 320.0,
       "direction": "below",
       "note": ""
     },
@@ -133,6 +154,34 @@
       "note": "entrada long"
     },
     {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 153.0,
+      "direction": "below",
+      "note": "analizar salir sopt"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 180.0,
+      "direction": "above",
+      "note": "ver beneficios 25%  -"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 193.0,
+      "direction": "above",
+      "note": "Toma 25% gcia"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 207.0,
+      "direction": "above",
+      "note": "25% Gcia"
+    },
+    {
       "symbol": "QQQ",
       "market": "stock",
       "level": 664.0,
@@ -164,6 +213,13 @@
       "symbol": "SPY",
       "market": "stock",
       "level": 736.0,
+      "direction": "below",
+      "note": ""
+    },
+    {
+      "symbol": "TSLA",
+      "market": "stock",
+      "level": 331.0,
       "direction": "below",
       "note": ""
     },
