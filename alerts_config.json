@@ -35,27 +35,6 @@
       "note": ""
     },
     {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 57384.98476455104,
-      "direction": "below",
-      "note": "Ojo si sigue"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 67000.0,
-      "direction": "above",
-      "note": "Vta 8"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 63421.0,
-      "direction": "above",
-      "note": "prueba"
-    },
-    {
       "symbol": "ETHUSDT",
       "market": "crypto",
       "level": 1600.0,
