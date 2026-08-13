@@ -215,6 +215,13 @@
       "level": 58719.573,
       "direction": "below",
       "note": ""
+    },
+    {
+      "symbol": "INTC",
+      "market": "stock",
+      "level": 101.1809,
+      "direction": "below",
+      "note": ""
     }
   ],
   "rsi_alerts": [],
