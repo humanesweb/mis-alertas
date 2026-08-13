@@ -70,6 +70,13 @@
       "note": "Toma Gcias"
     },
     {
+      "symbol": "GOOGL",
+      "market": "stock",
+      "level": 320.0,
+      "direction": "below",
+      "note": ""
+    },
+    {
       "symbol": "HYPERUSDT",
       "market": "crypto",
       "level": 52.24,
@@ -210,11 +217,11 @@
       "note": "entrada Gold Largo"
     },
     {
-      "symbol": "GOOGL",
+      "symbol": "SNKD",
       "market": "stock",
-      "level": 320.0,
-      "direction": "below",
-      "note": ""
+      "level": 1514.0,
+      "direction": "above",
+      "note": "Entrada long"
     }
   ],
   "rsi_alerts": [],
