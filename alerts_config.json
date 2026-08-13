@@ -35,6 +35,13 @@
       "note": ""
     },
     {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 58719.573,
+      "direction": "below",
+      "note": ""
+    },
+    {
       "symbol": "ETHUSDT",
       "market": "crypto",
       "level": 1560.6862591400995,
@@ -66,6 +73,13 @@
       "symbol": "HYPERUSDT",
       "market": "crypto",
       "level": 52.24,
+      "direction": "below",
+      "note": ""
+    },
+    {
+      "symbol": "INTC",
+      "market": "stock",
+      "level": 101.1809,
       "direction": "below",
       "note": ""
     },
@@ -208,27 +222,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 58719.573,
-      "direction": "below",
-      "note": ""
-    },
-    {
-      "symbol": "INTC",
-      "market": "stock",
-      "level": 101.1809,
-      "direction": "below",
-      "note": ""
-    },
-    {
-      "symbol": "TSLA",
-      "market": "stock",
-      "level": 333.0,
-      "direction": "below",
-      "note": ""
     }
   ],
   "rsi_alerts": [],
