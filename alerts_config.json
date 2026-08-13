@@ -49,13 +49,6 @@
       "note": "Vta 8"
     },
     {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 63421.0,
-      "direction": "above",
-      "note": "prueba"
-    },
-    {
       "symbol": "ETHUSDT",
       "market": "crypto",
       "level": 1600.0,
@@ -229,6 +222,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 65085.9453,
+      "direction": "above",
+      "note": ""
     }
   ],
   "rsi_alerts": [],
