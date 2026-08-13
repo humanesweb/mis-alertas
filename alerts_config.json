@@ -208,6 +208,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 58719.573,
+      "direction": "below",
+      "note": ""
     }
   ],
   "rsi_alerts": [],
