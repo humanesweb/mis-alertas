@@ -142,16 +142,16 @@
     {
       "symbol": "PLTR",
       "market": "stock",
-      "level": 172.94107516090523,
+      "level": 173.0,
       "direction": "below",
-      "note": "analizar salir sopt"
+      "note": "STOP LOSS"
     },
     {
       "symbol": "PLTR",
       "market": "stock",
-      "level": 193.0,
+      "level": 181.0,
       "direction": "above",
-      "note": "Toma 25% gcia"
+      "note": "TP 1 Toma 25% gcia TP2 192  - TP 3 205-2018"
     },
     {
       "symbol": "PLTR",
