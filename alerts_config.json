@@ -140,25 +140,11 @@
       "note": "ENtrada Long"
     },
     {
-      "symbol": "ORCL",
-      "market": "stock",
-      "level": 149.1,
-      "direction": "below",
-      "note": "entrada long"
-    },
-    {
       "symbol": "PLTR",
       "market": "stock",
-      "level": 153.0,
+      "level": 172.94107516090523,
       "direction": "below",
       "note": "analizar salir sopt"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 180.0,
-      "direction": "above",
-      "note": "ver beneficios 25%  -"
     },
     {
       "symbol": "PLTR",
