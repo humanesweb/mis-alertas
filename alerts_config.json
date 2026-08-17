@@ -210,7 +210,24 @@
       "note": "entrada Gold Largo"
     }
   ],
-  "rsi_alerts": [],
+  "rsi_alerts": [
+    {
+      "symbol": "HOOD",
+      "market": "crypto",
+      "interval": "1d",
+      "period": 14,
+      "overbought": 54.0,
+      "oversold": 55.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "interval": "1h",
+      "period": 14,
+      "overbought": 70.0,
+      "oversold": 30.0
+    }
+  ],
   "_ayuda": {
     "price_alerts": "direction: 'above' avisa al cruzar hacia arriba, 'below' al cruzar hacia abajo. market: 'crypto' (BTCUSDT) o 'stock' (AAPL, XAUUSD...).",
     "rsi_alerts": "interval: 1m,5m,15m,1h,4h,1d. Avisa una sola vez al ENTRAR en zona; se rearma al salir.",
