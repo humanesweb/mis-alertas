@@ -208,6 +208,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "DRAM",
+      "market": "stock",
+      "level": 57.5,
+      "direction": "below",
+      "note": "Long"
     }
   ],
   "rsi_alerts": [
@@ -218,14 +225,6 @@
       "period": 14,
       "overbought": 54.0,
       "oversold": 55.0
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "interval": "1h",
-      "period": 14,
-      "overbought": 70.0,
-      "oversold": 30.0
     }
   ],
   "_ayuda": {
