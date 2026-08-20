@@ -28,13 +28,6 @@
       "note": "Ver long despues del puulback"
     },
     {
-      "symbol": "AVGO",
-      "market": "stock",
-      "level": 360.0,
-      "direction": "below",
-      "note": ""
-    },
-    {
       "symbol": "BTCUSDT",
       "market": "crypto",
       "level": 58719.573,
@@ -73,20 +66,6 @@
       "symbol": "HYPERUSDT",
       "market": "crypto",
       "level": 52.24,
-      "direction": "below",
-      "note": ""
-    },
-    {
-      "symbol": "INTC",
-      "market": "stock",
-      "level": 101.1809,
-      "direction": "below",
-      "note": ""
-    },
-    {
-      "symbol": "IREN",
-      "market": "stock",
-      "level": 40.0,
       "direction": "below",
       "note": ""
     },
@@ -138,13 +117,6 @@
       "level": 207.19,
       "direction": "below",
       "note": "ENtrada Long"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 173.0,
-      "direction": "below",
-      "note": "STOP LOSS"
     },
     {
       "symbol": "PLTR",
@@ -210,18 +182,18 @@
       "note": "entrada Gold Largo"
     },
     {
-      "symbol": "DRAM",
-      "market": "stock",
-      "level": 57.5,
-      "direction": "below",
-      "note": "Long"
-    },
-    {
       "symbol": "BTCUSDT",
       "market": "crypto",
       "level": 62517.0,
       "direction": "below",
       "note": "long"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 71316.9181,
+      "direction": "below",
+      "note": ""
     }
   ],
   "rsi_alerts": [
