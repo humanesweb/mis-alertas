@@ -201,6 +201,13 @@
       "level": 358.0886,
       "direction": "below",
       "note": "Comprar Spot fuerte"
+    },
+    {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 370.506,
+      "direction": "above",
+      "note": "Comprar spot fuerte"
     }
   ],
   "rsi_alerts": [
