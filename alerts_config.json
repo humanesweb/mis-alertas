@@ -49,13 +49,6 @@
       "note": "prueba"
     },
     {
-      "symbol": "GLD",
-      "market": "stock",
-      "level": 420.0,
-      "direction": "above",
-      "note": "Toma Gcias"
-    },
-    {
       "symbol": "GOOGL",
       "market": "stock",
       "level": 320.0,
@@ -117,13 +110,6 @@
       "level": 207.19,
       "direction": "below",
       "note": "ENtrada Long"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 181.0,
-      "direction": "above",
-      "note": "TP 1 Toma 25% gcia TP2 192  - TP 3 205-2018"
     },
     {
       "symbol": "PLTR",
@@ -203,11 +189,11 @@
       "note": "Comprar Spot fuerte"
     },
     {
-      "symbol": "AVGO",
+      "symbol": "MU",
       "market": "stock",
-      "level": 370.506,
-      "direction": "above",
-      "note": "Comprar spot fuerte"
+      "level": 895.0,
+      "direction": "below",
+      "note": "Entrada Spot"
     }
   ],
   "rsi_alerts": [
