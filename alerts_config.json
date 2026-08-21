@@ -201,6 +201,13 @@
       "level": 79633.6015,
       "direction": "above",
       "note": "Se va pa arriba"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 73039.6181,
+      "direction": "below",
+      "note": "Se va a 69"
     }
   ],
   "rsi_alerts": [
