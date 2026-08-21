@@ -194,6 +194,13 @@
       "level": 895.0,
       "direction": "below",
       "note": "Entrada Spot"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 79633.6015,
+      "direction": "above",
+      "note": "Se va pa arriba"
     }
   ],
   "rsi_alerts": [
