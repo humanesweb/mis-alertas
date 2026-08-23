@@ -236,6 +236,13 @@
       "level": 109.0,
       "direction": "above",
       "note": "TP 2 (ATH)"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 412.0,
+      "direction": "below",
+      "note": "Zona COmpra1 (Aggressive Dip)"
     }
   ],
   "rsi_alerts": [
