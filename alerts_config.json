@@ -208,6 +208,13 @@
       "level": 73039.6181,
       "direction": "below",
       "note": "Se va a 69"
+    },
+    {
+      "symbol": "SLV",
+      "market": "stock",
+      "level": 42.0,
+      "direction": "below",
+      "note": "SL estructural"
     }
   ],
   "rsi_alerts": [
