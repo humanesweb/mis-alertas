@@ -222,6 +222,13 @@
       "level": 60.0,
       "direction": "above",
       "note": "Entrada Tramo 1 (Mercado/Pullback): $57.60 - $60.00"
+    },
+    {
+      "symbol": "SLV",
+      "market": "stock",
+      "level": 92.0,
+      "direction": "above",
+      "note": "TP 1"
     }
   ],
   "rsi_alerts": [
