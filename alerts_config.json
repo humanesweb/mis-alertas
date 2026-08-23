@@ -243,6 +243,13 @@
       "level": 412.0,
       "direction": "below",
       "note": "Zona COmpra1 (Aggressive Dip)"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 392.5,
+      "direction": "below",
+      "note": "Zona Carga 2 (Conservative Value)"
     }
   ],
   "rsi_alerts": [
