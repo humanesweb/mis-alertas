@@ -264,6 +264,13 @@
       "level": 509.0,
       "direction": "above",
       "note": "TP1"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 565.0,
+      "direction": "above",
+      "note": "Take Profit Macro 2:"
     }
   ],
   "rsi_alerts": [
