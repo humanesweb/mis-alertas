@@ -250,6 +250,13 @@
       "level": 392.5,
       "direction": "below",
       "note": "Zona Carga 2 (Conservative Value)"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 348.0,
+      "direction": "below",
+      "note": "Stop Loss Estructural"
     }
   ],
   "rsi_alerts": [
