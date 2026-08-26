@@ -151,6 +151,13 @@
       "level": 183.0556,
       "direction": "above",
       "note": "TP FINAL"
+    },
+    {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 358.55,
+      "direction": "above",
+      "note": "Perp en una Hoa, Entrar long Ver informe"
     }
   ],
   "rsi_alerts": [],
