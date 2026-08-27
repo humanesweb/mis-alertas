@@ -3,8 +3,16 @@
     "bot_token": "",
     "chat_id": ""
   },
+  "disable_notification": false,
   "poll_seconds": 60,
   "price_alerts": [
+    {
+      "symbol": "AAPL",
+      "market": "stock",
+      "level": 297.0,
+      "direction": "below",
+      "note": "Long"
+    },
     {
       "symbol": "AMD",
       "market": "stock",
@@ -13,30 +21,23 @@
       "note": "ver"
     },
     {
-      "symbol": "AVGO",
+      "symbol": "AMZN",
       "market": "stock",
-      "level": 360.0,
+      "level": 249.2,
+      "direction": "below",
+      "note": "Ver long despues del puulback"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 58719.573,
       "direction": "below",
       "note": ""
     },
     {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 61490.0,
-      "direction": "below",
-      "note": "Ojo si sigue"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 67000.0,
-      "direction": "above",
-      "note": "Vta 8"
-    },
-    {
       "symbol": "ETHUSDT",
       "market": "crypto",
-      "level": 1600.0,
+      "level": 1560.6862591400995,
       "direction": "below",
       "note": "Analizar Compras"
     },
@@ -50,51 +51,58 @@
     {
       "symbol": "GOOGL",
       "market": "stock",
-      "level": 306.0,
+      "level": 320.0,
       "direction": "below",
-      "note": "Cierrra gap entrada"
+      "note": ""
     },
     {
-      "symbol": "GOOGL",
-      "market": "stock",
-      "level": 340.0,
-      "direction": "above",
+      "symbol": "HYPERUSDT",
+      "market": "crypto",
+      "level": 52.24,
+      "direction": "below",
       "note": ""
     },
     {
       "symbol": "MELI",
       "market": "stock",
-      "level": 1870.0,
+      "level": 1750.0,
       "direction": "below",
-      "note": "EMA 200"
-    },
-    {
-      "symbol": "MELI",
-      "market": "stock",
-      "level": 2000.0,
-      "direction": "above",
       "note": ""
     },
     {
-      "symbol": "MU",
+      "symbol": "MSFT",
       "market": "stock",
-      "level": 745.0,
+      "level": 950.8,
+      "direction": "above",
+      "note": "Short ver"
+    },
+    {
+      "symbol": "NTFX",
+      "market": "stock",
+      "level": 74.0,
       "direction": "below",
-      "note": "Ver"
+      "note": "Entrar long"
     },
     {
       "symbol": "NVDA",
       "market": "stock",
       "level": 197.0,
-      "direction": "above",
+      "direction": "below",
       "note": ""
+    },
+    {
+      "symbol": "NVDA",
+      "market": "stock",
+      "level": 207.19,
+      "direction": "below",
+      "note": "ENtrada Long"
     },
     {
       "symbol": "PLTR",
       "market": "stock",
-      "level": 120.0,
-      "direction": "below",
-      "note": ""
+      "level": 207.0,
+      "direction": "above",
+      "note": "25% Gcia"
     },
     {
       "symbol": "QQQ",
@@ -111,6 +119,13 @@
       "note": ""
     },
     {
+      "symbol": "SNKD",
+      "market": "stock",
+      "level": 1514.0,
+      "direction": "above",
+      "note": "Entrada long"
+    },
+    {
       "symbol": "SPY",
       "market": "stock",
       "level": 760.0,
@@ -119,7 +134,7 @@
     },
     {
       "symbol": "SPY",
-      "market": "crypto",
+      "market": "stock",
       "level": 736.0,
       "direction": "below",
       "note": ""
@@ -127,40 +142,119 @@
     {
       "symbol": "TSLA",
       "market": "stock",
-      "level": 290.0,
-      "direction": "below",
-      "note": "Ver suelo"
-    },
-    {
-      "symbol": "HYPERLUSD",
-      "market": "crypto",
-      "level": 52.24,
+      "level": 322.9643811752797,
       "direction": "below",
       "note": ""
     },
     {
-      "symbol": "PLTR",
+      "symbol": "XAUUSD",
       "market": "stock",
-      "level": 170.8185,
+      "level": 4295.0,
       "direction": "below",
-      "note": "Ver de SL Resto de posicion"
+      "note": "entrada Gold Largo"
     },
     {
-      "symbol": "PLTR",
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 62517.0,
+      "direction": "below",
+      "note": "long"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 71316.9181,
+      "direction": "below",
+      "note": ""
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 73039.6181,
+      "direction": "below",
+      "note": "Se va a 69"
+    },
+    {
+      "symbol": "SLV",
       "market": "stock",
-      "level": 183.0556,
+      "level": 42.0,
+      "direction": "below",
+      "note": "SL estructural"
+    },
+    {
+      "symbol": "SLV",
+      "market": "stock",
+      "level": 60.0,
       "direction": "above",
-      "note": "TP FINAL"
+      "note": "Entrada Tramo 1 (Mercado/Pullback): $57.60 - $60.00"
+    },
+    {
+      "symbol": "SLV",
+      "market": "stock",
+      "level": 92.0,
+      "direction": "above",
+      "note": "TP 1"
+    },
+    {
+      "symbol": "SLV",
+      "market": "stock",
+      "level": 109.0,
+      "direction": "above",
+      "note": "TP 2 (ATH)"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 412.0,
+      "direction": "below",
+      "note": "Zona COmpra1 (Aggressive Dip)"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 392.5,
+      "direction": "below",
+      "note": "Zona Carga 2 (Conservative Value)"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 348.0,
+      "direction": "below",
+      "note": "Stop Loss Estructural"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 509.0,
+      "direction": "above",
+      "note": "TP1"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 565.0,
+      "direction": "above",
+      "note": "Take Profit Macro 2:"
     },
     {
       "symbol": "AVGO",
       "market": "stock",
-      "level": 358.55,
+      "level": 369.51,
       "direction": "above",
-      "note": "Perp en una Hoa, Entrar long Ver informe"
+      "note": "Largo Estudiado"
     }
   ],
-  "rsi_alerts": [],
+  "rsi_alerts": [
+    {
+      "symbol": "HOOD",
+      "market": "crypto",
+      "interval": "1d",
+      "period": 14,
+      "overbought": 54.0,
+      "oversold": 55.0
+    }
+  ],
   "_ayuda": {
     "price_alerts": "direction: 'above' avisa al cruzar hacia arriba, 'below' al cruzar hacia abajo. market: 'crypto' (BTCUSDT) o 'stock' (AAPL, XAUUSD...).",
     "rsi_alerts": "interval: 1m,5m,15m,1h,4h,1d. Avisa una sola vez al ENTRAR en zona; se rearma al salir.",
