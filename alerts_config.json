@@ -243,6 +243,13 @@
       "level": 369.51,
       "direction": "above",
       "note": "Largo Estudiado"
+    },
+    {
+      "symbol": "MU",
+      "market": "stock",
+      "level": 965.0,
+      "direction": "below",
+      "note": "Ver Short 27-08 930hs"
     }
   ],
   "rsi_alerts": [
