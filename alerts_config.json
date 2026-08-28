@@ -236,6 +236,13 @@
       "level": 400.0,
       "direction": "below",
       "note": "Compra"
+    },
+    {
+      "symbol": "SLV",
+      "market": "stock",
+      "level": 56.0,
+      "direction": "above",
+      "note": "Compra Ver informe"
     }
   ],
   "rsi_alerts": [
