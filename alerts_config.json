@@ -250,6 +250,13 @@
       "level": 508.7947,
       "direction": "below",
       "note": "SHOR"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 178.0,
+      "direction": "below",
+      "note": "Ver de irse"
     }
   ],
   "rsi_alerts": [
