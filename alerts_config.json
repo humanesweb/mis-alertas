@@ -243,6 +243,13 @@
       "level": 56.0,
       "direction": "above",
       "note": "Compra Ver informe"
+    },
+    {
+      "symbol": "MSFT",
+      "market": "stock",
+      "level": 508.7947,
+      "direction": "below",
+      "note": "SHOR"
     }
   ],
   "rsi_alerts": [
