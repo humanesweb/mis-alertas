@@ -184,13 +184,6 @@
     {
       "symbol": "SLV",
       "market": "stock",
-      "level": 60.0,
-      "direction": "above",
-      "note": "Entrada Tramo 1 (Mercado/Pullback): $57.60 - $60.00"
-    },
-    {
-      "symbol": "SLV",
-      "market": "stock",
       "level": 92.0,
       "direction": "above",
       "note": "TP 1"
@@ -201,13 +194,6 @@
       "level": 109.0,
       "direction": "above",
       "note": "TP 2 (ATH)"
-    },
-    {
-      "symbol": "GLD",
-      "market": "stock",
-      "level": 412.0,
-      "direction": "below",
-      "note": "Zona COmpra1 (Aggressive Dip)"
     },
     {
       "symbol": "GLD",
@@ -238,18 +224,18 @@
       "note": "Take Profit Macro 2:"
     },
     {
-      "symbol": "AVGO",
-      "market": "stock",
-      "level": 369.51,
-      "direction": "above",
-      "note": "Largo Estudiado"
-    },
-    {
       "symbol": "MU",
       "market": "stock",
       "level": 965.0,
       "direction": "below",
       "note": "Ver Short 27-08 930hs"
+    },
+    {
+      "symbol": "GLD",
+      "market": "stock",
+      "level": 400.0,
+      "direction": "below",
+      "note": "Compra"
     }
   ],
   "rsi_alerts": [
