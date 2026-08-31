@@ -90,10 +90,11 @@ _YF_INTERVAL_MAP: Dict[str, Dict[str, str]] = {
     "1m": {"interval": "1m", "period": "5d"},
     "5m": {"interval": "5m", "period": "1mo"},
     "15m": {"interval": "15m", "period": "1mo"},
-    # Yahoo has no native 4h; we approximate with 1h (still very usable) and a
-    # longer window. 60m is Yahoo's hourly bar id.
+    # Yahoo has no native 4h; we pull 60m over a long window and aggregate the
+    # bars ourselves in `_resample_intraday_to_4h`. 60m is Yahoo's hourly id,
+    # and Yahoo serves it back up to 730 days.
     "1h": {"interval": "60m", "period": "3mo"},
-    "4h": {"interval": "60m", "period": "6mo"},
+    "4h": {"interval": "60m", "period": "1y"},
     "1d": {"interval": "1d", "period": "5y"},
 }
 
@@ -334,6 +335,44 @@ def _resolve_yahoo_symbol(symbol: str) -> str:
     return s
 
 
+_SESSION_TZ = "America/New_York"
+
+
+def _resample_intraday_to_4h(frame: pd.DataFrame) -> pd.DataFrame:
+    """Aggregate 60-minute equity bars into session-anchored 4h bars.
+
+    Yahoo serves no native 4h bar for stocks. A plain 4-hour grid is not an
+    option either: the regular session is 6.5h, so a fixed grid straddles the
+    overnight gap and merges the close of one day with the open of the next.
+    Each session is therefore bucketed on its own clock, anchored to that
+    session's first bar: bucket 0 covers 09:30-13:30 ET and bucket 1 holds the
+    remaining 2.5h. Anchoring to the session's own open (rather than a hardcoded
+    09:30) keeps half days and holiday closes correct. This is the same
+    anchoring TradingView applies, so the levels match what the chart shows.
+    """
+    if frame.empty:
+        return frame
+
+    ts = pd.to_datetime(frame["time"], unit="s", utc=True).dt.tz_convert(_SESSION_TZ)
+    session = ts.dt.date
+    anchor = ts.groupby(session).transform("min")
+    bucket = ((ts - anchor).dt.total_seconds() // (4 * 3600)).astype("int64")
+
+    out = (
+        frame.groupby([session, bucket], sort=True)
+        .agg(
+            time=("time", "first"),
+            open=("open", "first"),
+            high=("high", "max"),
+            low=("low", "min"),
+            close=("close", "last"),
+            volume=("volume", "sum"),
+        )
+        .reset_index(drop=True)
+    )
+    return out[BASE_COLUMNS]
+
+
 def fetch_yfinance(symbol: str, interval: str, limit: int = 500) -> pd.DataFrame:
     """Fetch historical candles for a US stock/ETF via yfinance.
 
@@ -403,6 +442,11 @@ def fetch_yfinance(symbol: str, interval: str, limit: int = 500) -> pd.DataFrame
 
     if frame.empty:
         raise DataSourceError(f"No valid candles for stock {ticker!r}.")
+
+    # Yahoo has no 4h bar for equities: build it from the 60m series, before the
+    # `limit` tail so the cap counts 4h candles and not hourly ones.
+    if interval == "4h":
+        frame = _resample_intraday_to_4h(frame)
 
     # Keep only the most recent `limit` candles.
     frame = frame.tail(int(limit)).reset_index(drop=True)
