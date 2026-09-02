@@ -98,13 +98,6 @@
       "note": "Take Profit Macro 2:"
     },
     {
-      "symbol": "GLD",
-      "market": "stock",
-      "level": 400.0,
-      "direction": "below",
-      "note": "Compra"
-    },
-    {
       "symbol": "GOOGL",
       "market": "stock",
       "level": 320.0,
@@ -133,20 +126,6 @@
       "note": "Short ver"
     },
     {
-      "symbol": "MSFT",
-      "market": "stock",
-      "level": 508.7947,
-      "direction": "below",
-      "note": "SHOR"
-    },
-    {
-      "symbol": "MU",
-      "market": "stock",
-      "level": 965.0,
-      "direction": "below",
-      "note": "Ver Short 27-08 930hs"
-    },
-    {
       "symbol": "NTFX",
       "market": "stock",
       "level": 74.0,
@@ -173,13 +152,6 @@
       "level": 193.0,
       "direction": "above",
       "note": "50% Gcia"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 180.0,
-      "direction": "below",
-      "note": "Ver de irse"
     },
     {
       "symbol": "QQQ",
@@ -233,13 +205,6 @@
     {
       "symbol": "SPY",
       "market": "stock",
-      "level": 760.0,
-      "direction": "above",
-      "note": "Comorar SH"
-    },
-    {
-      "symbol": "SPY",
-      "market": "stock",
       "level": 736.0,
       "direction": "below",
       "note": ""
@@ -257,6 +222,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 170.0,
+      "direction": "below",
+      "note": "Ver de Salir"
     }
   ],
   "rsi_alerts": [
