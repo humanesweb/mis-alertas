@@ -28,6 +28,20 @@
       "note": "Ver long despues del puulback"
     },
     {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 369.0,
+      "direction": "above",
+      "note": "tp 1 30%"
+    },
+    {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 339.0,
+      "direction": "below",
+      "note": "SL"
+    },
+    {
       "symbol": "BTCUSDT",
       "market": "crypto",
       "level": 58719.573,
@@ -163,9 +177,37 @@
     {
       "symbol": "ORCL",
       "market": "stock",
-      "level": 147.0,
-      "direction": "below",
+      "level": 157.0,
+      "direction": "above",
       "note": "Entrada ojo balance"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 176.5,
+      "direction": "below",
+      "note": "Stop Loss"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 188.0,
+      "direction": "above",
+      "note": "TP 35%"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 200.0,
+      "direction": "above",
+      "note": "TP2 50%"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 210.0,
+      "direction": "below",
+      "note": "TP3 211"
     },
     {
       "symbol": "QQQ",
@@ -236,48 +278,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 176.5,
-      "direction": "below",
-      "note": "Stop Loss"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 188.0,
-      "direction": "above",
-      "note": "TP 35%"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 200.0,
-      "direction": "above",
-      "note": "TP2 50%"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 210.0,
-      "direction": "below",
-      "note": "TP3 211"
-    },
-    {
-      "symbol": "AVGO",
-      "market": "stock",
-      "level": 369.0,
-      "direction": "above",
-      "note": "tp 1 30%"
-    },
-    {
-      "symbol": "AVGO",
-      "market": "stock",
-      "level": 339.0,
-      "direction": "below",
-      "note": "SL"
     }
   ],
   "rsi_alerts": [
