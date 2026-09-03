@@ -147,11 +147,39 @@
       "note": "ENtrada Long"
     },
     {
+      "symbol": "ORCL",
+      "market": "stock",
+      "level": 147.0,
+      "direction": "below",
+      "note": "Entrada ojo balance"
+    },
+    {
       "symbol": "PLTR",
       "market": "stock",
       "level": 193.0,
       "direction": "above",
       "note": "50% Gcia"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 161.0,
+      "direction": "below",
+      "note": "salir"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 162.0,
+      "direction": "below",
+      "note": "Rompe Kumo 4H + SL Liquidity Hunter + rail -2sigma"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 172.0,
+      "direction": "below",
+      "note": "Ver salida"
     },
     {
       "symbol": "QQQ",
@@ -222,34 +250,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 161.0,
-      "direction": "below",
-      "note": "salir"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 162.0,
-      "direction": "below",
-      "note": "Rompe Kumo 4H + SL Liquidity Hunter + rail -2sigma"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 172.0,
-      "direction": "below",
-      "note": "Ver salida"
-    },
-    {
-      "symbol": "ORCL",
-      "market": "stock",
-      "level": 145.0,
-      "direction": "below",
-      "note": "Entrada ojo balance"
     }
   ],
   "rsi_alerts": [
