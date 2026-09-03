@@ -250,6 +250,13 @@
       "level": 188.0,
       "direction": "above",
       "note": "TP 35%"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 200.0,
+      "direction": "above",
+      "note": "TP2 50%"
     }
   ],
   "rsi_alerts": [
