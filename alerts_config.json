@@ -243,6 +243,13 @@
       "level": 172.0,
       "direction": "below",
       "note": "Ver salida"
+    },
+    {
+      "symbol": "ORCL",
+      "market": "stock",
+      "level": 145.0,
+      "direction": "below",
+      "note": "Entrada ojo balance"
     }
   ],
   "rsi_alerts": [
