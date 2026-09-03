@@ -271,6 +271,13 @@
       "level": 369.0,
       "direction": "above",
       "note": "tp 1 30%"
+    },
+    {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 339.0,
+      "direction": "below",
+      "note": "SL"
     }
   ],
   "rsi_alerts": [
