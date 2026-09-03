@@ -243,6 +243,13 @@
       "level": 176.5,
       "direction": "below",
       "note": "Stop Loss"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 188.0,
+      "direction": "above",
+      "note": "TP 35%"
     }
   ],
   "rsi_alerts": [
