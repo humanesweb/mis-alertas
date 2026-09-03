@@ -257,6 +257,13 @@
       "level": 78000.0,
       "direction": "below",
       "note": "Compra 1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 73000.0,
+      "direction": "below",
+      "note": "Compra"
     }
   ],
   "rsi_alerts": [
