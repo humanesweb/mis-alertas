@@ -236,6 +236,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 176.5,
+      "direction": "below",
+      "note": "Stop Loss"
     }
   ],
   "rsi_alerts": [
