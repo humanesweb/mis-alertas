@@ -56,6 +56,20 @@
       "note": "Se va a 69"
     },
     {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 78000.0,
+      "direction": "below",
+      "note": "Compra 1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "market": "crypto",
+      "level": 73000.0,
+      "direction": "below",
+      "note": "Compra"
+    },
+    {
       "symbol": "ETHUSDT",
       "market": "crypto",
       "level": 1560.6862591400995,
@@ -154,34 +168,6 @@
       "note": "Entrada ojo balance"
     },
     {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 193.0,
-      "direction": "above",
-      "note": "50% Gcia"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 161.0,
-      "direction": "below",
-      "note": "salir"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 162.0,
-      "direction": "below",
-      "note": "Rompe Kumo 4H + SL Liquidity Hunter + rail -2sigma"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 172.0,
-      "direction": "below",
-      "note": "Ver salida"
-    },
-    {
       "symbol": "QQQ",
       "market": "stock",
       "level": 664.0,
@@ -250,20 +236,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 78000.0,
-      "direction": "below",
-      "note": "Compra 1"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 73000.0,
-      "direction": "below",
-      "note": "Compra"
     }
   ],
   "rsi_alerts": [
