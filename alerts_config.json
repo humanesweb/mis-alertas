@@ -30,13 +30,6 @@
     {
       "symbol": "AVGO",
       "market": "stock",
-      "level": 369.0,
-      "direction": "above",
-      "note": "tp 1 30%"
-    },
-    {
-      "symbol": "AVGO",
-      "market": "stock",
       "level": 339.0,
       "direction": "below",
       "note": "SL"
@@ -68,13 +61,6 @@
       "level": 73039.6181,
       "direction": "below",
       "note": "Se va a 69"
-    },
-    {
-      "symbol": "BTCUSDT",
-      "market": "crypto",
-      "level": 78000.0,
-      "direction": "below",
-      "note": "Compra 1"
     },
     {
       "symbol": "BTCUSDT",
@@ -175,20 +161,6 @@
       "note": "ENtrada Long"
     },
     {
-      "symbol": "ORCL",
-      "market": "stock",
-      "level": 157.0,
-      "direction": "above",
-      "note": "Entrada ojo balance"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 176.5,
-      "direction": "below",
-      "note": "Stop Loss"
-    },
-    {
       "symbol": "PLTR",
       "market": "stock",
       "level": 188.0,
@@ -278,6 +250,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "NVDA",
+      "market": "stock",
+      "level": 234.75,
+      "direction": "above",
+      "note": "Entrada"
     }
   ],
   "rsi_alerts": [
