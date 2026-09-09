@@ -35,6 +35,27 @@
       "note": "Compra DCA tramo 1 20%"
     },
     {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 348.0,
+      "direction": "below",
+      "note": "Compra tramo 2 25%"
+    },
+    {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 342.0,
+      "direction": "below",
+      "note": "Tramo 3 25%"
+    },
+    {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 332.0,
+      "direction": "below",
+      "note": "Compra 4 tramo final 30%"
+    },
+    {
       "symbol": "BTCUSDT",
       "market": "crypto",
       "level": 58719.573,
@@ -168,27 +189,6 @@
       "note": "Entrada"
     },
     {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 188.0,
-      "direction": "above",
-      "note": "TP 35%"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 200.0,
-      "direction": "above",
-      "note": "TP2 50%"
-    },
-    {
-      "symbol": "PLTR",
-      "market": "stock",
-      "level": 210.0,
-      "direction": "below",
-      "note": "TP3 211"
-    },
-    {
       "symbol": "QQQ",
       "market": "stock",
       "level": 664.0,
@@ -257,27 +257,6 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
-    },
-    {
-      "symbol": "AVGO",
-      "market": "stock",
-      "level": 348.0,
-      "direction": "above",
-      "note": "Compra tramo 2 25%"
-    },
-    {
-      "symbol": "AVGO",
-      "market": "stock",
-      "level": 342.0,
-      "direction": "below",
-      "note": "Tramo 3 25%"
-    },
-    {
-      "symbol": "AVGO",
-      "market": "stock",
-      "level": 332.0,
-      "direction": "below",
-      "note": "Compra 4 tramo final 30%"
     }
   ],
   "rsi_alerts": [
