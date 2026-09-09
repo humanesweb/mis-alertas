@@ -257,6 +257,13 @@
       "level": 4295.0,
       "direction": "below",
       "note": "entrada Gold Largo"
+    },
+    {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 348.0,
+      "direction": "above",
+      "note": "Compra tramo 2 25%"
     }
   ],
   "rsi_alerts": [
