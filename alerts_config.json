@@ -264,6 +264,13 @@
       "level": 348.0,
       "direction": "above",
       "note": "Compra tramo 2 25%"
+    },
+    {
+      "symbol": "AVGO",
+      "market": "stock",
+      "level": 342.0,
+      "direction": "below",
+      "note": "Tramo 3 25%"
     }
   ],
   "rsi_alerts": [
