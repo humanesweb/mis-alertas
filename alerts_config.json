@@ -264,6 +264,13 @@
       "level": 82500.0,
       "direction": "above",
       "note": "Cambia a Alcista"
+    },
+    {
+      "symbol": "PLTR",
+      "market": "stock",
+      "level": 161.0,
+      "direction": "below",
+      "note": "Entrada"
     }
   ],
   "rsi_alerts": [
