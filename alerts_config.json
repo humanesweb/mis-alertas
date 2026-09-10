@@ -271,6 +271,13 @@
       "level": 161.0,
       "direction": "below",
       "note": "Entrada"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "market": "crypto",
+      "level": 2215.0,
+      "direction": "below",
+      "note": "Entrada de LP"
     }
   ],
   "rsi_alerts": [
